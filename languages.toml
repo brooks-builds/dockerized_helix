@@ -1,0 +1,6 @@
+[[language]]
+name = "typescript"
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] } ]
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
